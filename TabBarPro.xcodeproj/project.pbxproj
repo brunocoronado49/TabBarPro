@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41A576127078611003290CA /* TabIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A576027078610003290CA /* TabIcon.swift */; };
+		D41A576327078929003290CA /* TabMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A576227078929003290CA /* TabMenuIcon.swift */; };
+		D41A576627078AAE003290CA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A576527078AAE003290CA /* Colors.swift */; };
+		D41A576A27079A05003290CA /* ViewRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A576927079A05003290CA /* ViewRoutes.swift */; };
 		D45655CF270781B700D6450E /* TabBarProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45655CE270781B700D6450E /* TabBarProApp.swift */; };
 		D45655D1270781B700D6450E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45655D0270781B700D6450E /* ContentView.swift */; };
 		D45655D3270781C000D6450E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45655D2270781C000D6450E /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D41A576027078610003290CA /* TabIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIcon.swift; sourceTree = "<group>"; };
+		D41A576227078929003290CA /* TabMenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuIcon.swift; sourceTree = "<group>"; };
+		D41A576527078AAE003290CA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D41A576927079A05003290CA /* ViewRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRoutes.swift; sourceTree = "<group>"; };
 		D45655CB270781B700D6450E /* TabBarPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45655CE270781B700D6450E /* TabBarProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProApp.swift; sourceTree = "<group>"; };
 		D45655D0270781B700D6450E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D41A575E2707830D003290CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D41A575F270785FF003290CA /* Components */,
+				D45655D0270781B700D6450E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D41A575F270785FF003290CA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D41A576027078610003290CA /* TabIcon.swift */,
+				D41A576227078929003290CA /* TabMenuIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D41A576427078AA0003290CA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D41A576527078AAE003290CA /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D41A5768270799DE003290CA /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				D41A576927079A05003290CA /* ViewRoutes.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
 		D45655C2270781B700D6450E = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +136,10 @@
 		D45655CD270781B700D6450E /* TabBarPro */ = {
 			isa = PBXGroup;
 			children = (
+				D41A5768270799DE003290CA /* Routes */,
+				D41A576427078AA0003290CA /* Helpers */,
+				D41A575E2707830D003290CA /* Views */,
 				D45655CE270781B700D6450E /* TabBarProApp.swift */,
-				D45655D0270781B700D6450E /* ContentView.swift */,
 				D45655D2270781C000D6450E /* Assets.xcassets */,
 				D45655D4270781C000D6450E /* Preview Content */,
 			);
@@ -257,6 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41A576A27079A05003290CA /* ViewRoutes.swift in Sources */,
+				D41A576127078611003290CA /* TabIcon.swift in Sources */,
+				D41A576627078AAE003290CA /* Colors.swift in Sources */,
+				D41A576327078929003290CA /* TabMenuIcon.swift in Sources */,
 				D45655D1270781B700D6450E /* ContentView.swift in Sources */,
 				D45655CF270781B700D6450E /* TabBarProApp.swift in Sources */,
 			);
